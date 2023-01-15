@@ -1,0 +1,127 @@
+*{
+    border: 0px;
+}
+/*font size*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+body{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: beige;
+}
+
+.info-list{
+    display: flex;
+}
+.navber-text{
+   
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.text-sector{
+    margin-top: 130px;
+    align-items: center;
+    text-align: center;
+}
+.header-btn{
+    background-color: orange;
+    padding: 10px;
+    height: 60px;
+    width: 170px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.image-size{
+    width: 70%;
+    height: 500px;
+   align-items: center;
+   margin-left: 180px;
+}
+   
+
+    
+   
+
+    
+ul li{
+    height: 26px;
+    list-style: none;
+    margin-left: 30px;
+
+}
+/* main section*/
+.image-section img{
+ height: 250px;
+ width: 250px;
+}
+.image-section{
+    width: 550px;
+    height: 600px;
+    display: flex;
+    
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    
+}
+.image-up{
+    margin-top: -94px;
+}
+.section2{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.text-color1{
+    color: #727272;
+}
+.text-color2{
+    color: orange;
+}
+.text-size{
+    margin-top: 140px;
+    margin-left: 20px;
+}
+.main-btn{
+    background-color: orange;
+    padding: 10px;
+    height: 60px;
+    width: 170px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+main{
+    background-color: aliceblue;
+}
+/*section3*/
+.image-2{
+    height: 800px;
+    width: 600px;
+}
+.section3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-style{
+    border: 1px;
+    
+}
+.section3-btn{
+    background-color: orange;
+    padding: 10px;
+    height: 150px;
+    width: 220px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   margin-left: 5px;
+   margin-top: -90px;
+}
