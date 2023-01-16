@@ -12,6 +12,10 @@ body{
     width: 100%;
     font-family: 'Open Sans', sans-serif;
     background-color: beige;
+    
+}
+p{
+    color: #727272;
 }
 
 
@@ -217,5 +221,6 @@ footer{
 .footer-text{
    align-items: center;
    margin-top: -20px;
+   color:#727272
   
 }
