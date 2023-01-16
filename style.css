@@ -9,6 +9,9 @@ body{
     background-color: beige;
 }
 
+
+/*---------------header------------*/
+
 .info-list{
     display: flex;
 }
@@ -40,22 +43,19 @@ body{
    align-items: center;
    margin-left: 180px;
 }
-   
-
-    
-   
-
-    
-ul li{
+   ul li{
     height: 26px;
     list-style: none;
     margin-left: 30px;
 
 }
-/* main section*/
+/*--------- main -----------
+----------section-1-------------*/
+
+
 .image-section img{
- height: 250px;
- width: 250px;
+     height: 250px;
+     width: 250px;
 }
 .image-section{
     width: 550px;
@@ -68,9 +68,9 @@ ul li{
     
 }
 .image-up{
-    margin-top: -94px;
+     margin-top: -94px;
 }
-.section2{
+.section1{
     display: flex;
     margin-top: 100px;
     justify-content: center;
@@ -82,10 +82,7 @@ ul li{
 .text-color2{
     color: orange;
 }
-.text-size{
-    margin-top: 140px;
-    margin-left: 20px;
-}
+
 .main-btn{
     background-color: orange;
     padding: 10px;
@@ -99,12 +96,16 @@ ul li{
 main{
     background-color: aliceblue;
 }
-/*section3*/
+
+
+/*-----------main section-2--------------*/
+
+
 .image-2{
     height: 800px;
     width: 600px;
 }
-.section3{
+.section2{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,7 +114,8 @@ main{
     border: 1px;
     
 }
-.section3-btn{
+
+.section2-btn{
     background-color: orange;
     padding: 10px;
     height: 150px;
@@ -121,7 +123,94 @@ main{
     font-size: 20px;
     color: white;
     border-radius: 10px;
-    margin-bottom: 20px;
-   margin-left: 5px;
-   margin-top: -90px;
+    margin-left: 600px; 
+
+    margin-top: -160px;
+}
+
+
+/*--------section3----------*/
+
+.section3-text{
+    margin-top: 100px;
+    margin-left: 190px;
+}
+
+.section3-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 100px;
+ 
+}
+.icon1{
+    height: 180px;
+    width: 180px;
+    border: 10px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+.icon2{
+    height: 180px;
+    width: 180px;
+    border: 5px;
+  
+    align-items: center;
+    text-align: center;
+}
+.icon3{
+    height: 180px;
+    width: 180px;
+    border: 5px;
+
+    align-items: center;
+    text-align: center;
+}
+.icon4{
+    height: 180px;
+    width: 180px;
+    border: 5px;
+   
+    align-items: center;
+    text-align: center;
+}
+
+/*-------section4-------*/
+
+.section4-text{
+    text-align: center;
+    align-items: center;
+    margin-top: 150px;
+    
+}
+.section4-icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+   }
+.section4-icons img{
+    color: #727272;
+    Width:153.33px;
+    Height:50px;
+
+
+}
+
+/*---------footer---------------*/
+
+
+footer{
+    
+   margin-top: 50px;
+   width: 100%;
+ 
+   border: 0;
+ }
+
+.footer-text{
+   align-items: center;
+   margin-top: -20px;
+  
 }
