@@ -1,8 +1,13 @@
 *{
     border: 0px;
 }
-/*font size*/
+/*---------font size----------------*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+/*------------body---------------*/
+
 body{
     width: 100%;
     font-family: 'Open Sans', sans-serif;
@@ -98,7 +103,7 @@ main{
 }
 
 
-/*-----------main section-2--------------*/
+/*-----------section-2--------------*/
 
 
 .image-2{
@@ -129,7 +134,7 @@ main{
 }
 
 
-/*--------section3----------*/
+/*--------section-3----------*/
 
 .section3-text{
     margin-top: 100px;
@@ -177,7 +182,7 @@ main{
     text-align: center;
 }
 
-/*-------section4-------*/
+/*-------section-4-------*/
 
 .section4-text{
     text-align: center;
